@@ -1,0 +1,22 @@
+function checkDriverAge() {
+let age = parseInt(prompt("What is your age?"));
+ if (age > 18)
+   {alert("Powering On. Enjoy the ride!");}
+  else if (Age < 18)
+    { alert("Sorry, you are too young to drive this car. Powering off.");}
+  else 
+    { alert("Congratulations on your first year of driving. Enjoy the ride!");}
+}
+
+let checkDriverAge2 = function() {
+  return checkDriverAge ();
+};
+
+function checkDriverAge(age) {
+  if (age > 18)
+   {return("Powering On. Enjoy the ride!");}
+  else if (Age < 18)
+    { return ("Sorry, you are too young to drive this car. Powering off.");}
+  else 
+    { return("Congratulations on your first year of driving. Enjoy the ride!");}
+}
